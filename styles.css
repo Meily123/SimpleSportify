@@ -1,4 +1,3 @@
-/* Reset some default styles */
 body, h1, h2, h3, h4, h5, h6, p, ul, li {
     margin: 0;
     padding: 0;
@@ -52,9 +51,10 @@ h2 {
   
 .song-list {
     list-style-type: none;
-    /*background-color: #1db954;*/
-    height: 340px;
     margin: 30px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
   
 .song-list li {
@@ -63,7 +63,7 @@ h2 {
 
 .song {
     margin: 10px 10px;
-    float: left;
+    /*float: left;*/
 }
   
 .song-list li img {
